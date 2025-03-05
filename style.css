@@ -91,3 +91,24 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .todo-app {
+        width: 95%;
+        padding: 30px 20px 60px;
+    }
+    .row {
+        flex-direction: column;
+        padding: 10px;
+    }
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+}
